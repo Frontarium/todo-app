@@ -1,0 +1,20 @@
+.root {
+  position: relative;
+  height: 16px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+.bar {
+  height: 100%;
+  background: #111;
+}
+.text {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  color: #fff;
+  font-weight: 800;
+}
